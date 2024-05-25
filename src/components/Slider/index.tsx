@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import './styles.scss';
-import SliderSlick from "react-slick";
-import slides from '@api/slides.json';
+import SliderSlick from 'react-slick';
+import { slides } from '@api/slides';
 
 export const Slider: FC = () => {
   const settings = {

@@ -1,7 +1,8 @@
 import { FC } from 'react';
 import './styles.scss';
-import cards from '@api/cards.json';
 import { CardInfo } from '@components/CardInfo';
+import { cards } from '@api/cards';
+
 
 export const CardsList: FC = () => {
   return (
