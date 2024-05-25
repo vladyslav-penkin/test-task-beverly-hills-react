@@ -1,0 +1,18 @@
+.FooterLink {
+  position: relative;
+  color: white;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+
+  &_background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    background-color: var(--hover-color);
+  }
+}

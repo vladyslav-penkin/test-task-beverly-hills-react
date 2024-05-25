@@ -1,0 +1,28 @@
+.Media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  padding: 120px 0;
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+  
+  &_title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+  }
+  
+  &_description {
+    text-align: center;
+    color: var(--light-color);
+    font-size: 1.5rem;
+  }
+}

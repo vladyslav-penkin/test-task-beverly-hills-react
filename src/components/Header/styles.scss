@@ -1,0 +1,28 @@
+@import '@styles/mixins.scss';
+@import '@styles/animations.scss';
+
+.Header {
+  background-image: var(--bg-header-color);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  
+  &_title {
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 60px 0 100px 0;
+
+    @include onTablet {
+      padding: 140px 0 180px 0;
+      font-size: 52px;
+      font-weight: 600;
+      line-height: 80px;
+    }
+
+    @include onDesktop {
+      max-width: 1024px;
+      margin: auto;
+    }
+  }
+}

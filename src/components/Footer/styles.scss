@@ -1,0 +1,52 @@
+@import '@styles/mixins.scss';
+
+.Footer {
+  padding: 50px 0;
+  background-color: var(--footer-color);
+
+  @include onTablet {
+    padding: 120px 0 50px 0;
+  }
+
+  &_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+  
+    @include onTablet {
+      flex-direction: row;
+    }
+  }
+  
+  &_image {
+    max-width: 108px;
+    max-height: 108px;
+  }
+  
+  &_title {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  &_description {
+    color: var(--light-color);
+    margin-top: 10px;
+    font-size: 1.4rem;
+  
+    @media (min-width: 640px) {
+      font-size: 1.6rem;
+    }
+  }
+  
+  &_nav {
+    margin-top: 40px;
+  }
+  
+  &_allRights {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    text-align: center;
+  }
+}

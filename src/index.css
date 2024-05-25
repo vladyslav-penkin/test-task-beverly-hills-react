@@ -1,0 +1,14 @@
+:root {
+  --tablet-size: 640px;
+  --desktop-size: 1024px;
+  --primary-color: #ffffff;
+  --secondary-color: #495057;
+  --accent-color: #774dc9;
+  --border-color: #008ecc;
+  --hover-color: #ffffff26;
+  --pink-color: #e33d94;
+  --footer-color: #008ecc;
+  --bg-hover-color: #e9f8fd;
+  --light-color: #dee2e6;
+  --bg-header-color: linear-gradient(345deg, #ee7752 0%, #e73c7e 33%, #23a6d5 67%, #23d5ab 100%);
+}

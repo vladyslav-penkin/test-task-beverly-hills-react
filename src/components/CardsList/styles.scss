@@ -1,0 +1,13 @@
+.CardsList {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+  padding: 140px 0;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 868px) {
+    flex-flow: row nowrap;
+    align-items: stretch;
+  }
+}
